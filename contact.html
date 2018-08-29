@@ -12,7 +12,7 @@
 	</div>
 
 	<div class="nav">
-			<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+		<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
 	</div>
 
 	<div class="mainContent">
@@ -20,22 +20,33 @@
 		<div class="mainBoxContent">
 			<h1>Contact</h1>
 			<hr>
-			<form action="/action_page.php">
-				Name: 
+			<form id="contact-form" method="post" action="contact.php" role="form">
+				<div class="form-group">
+
+					<label for="form_name">Name: </label>
+					<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
+					<div class="help-block with-errors"></div>
+				</div>
 				<br>
-				<input type="text" name="fname">
+				<div class="form-group">
+					<label for="form_name">Email: </label>
+					<input id="form_name" type="text" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Email is required.">
+					<div class="help-block with-errors"></div>
+				</div>
 				<br>
-				Email:
-				<br>
-				<input type="text" name="email">
-				<br>
-				Message:
-				<br>
-				<input type="text" name="message">
+				<div class="form-group">
+					<label for="form_name">Message: </label>
+					<input id="form_name" type="text" name="message" class="form-control" placeholder="Please enter your message *" required="required" data-error="Message is required.">
+					<div class="help-block with-errors"></div>
+				</div>
 				<br>
 				<input type="submit" value="Submit">
+				<br>
+				<strong>*</strong> These fields are required.
+				<br>
 			</form>
 		</div>
+
 
 		<div class="sidebar">
 			<h2>Connect with Me</h2>
@@ -46,11 +57,11 @@
 			<a href="https://stackoverflow.com/users/9104684/shelby-thompson?tab=profile" target="_blank"><img src="assets/images/stack64.png"  alt="StackOverflow Icon"></a>
 		</div>
 
-    </div>
+	</div>
 
 
-<footer>
+	<footer>
 		&copy; Copyright Jane Shelby Thompson 2018
-</footer>
+	</footer>
 
 </body>
