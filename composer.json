@@ -1,0 +1,13 @@
+{
+    "name": "shelby/responsive-portfolio",
+    "description": "Personal Portfolio to showcase my work",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Shelby Thompson Blood",
+            "email": "shelby.t@comcast.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
